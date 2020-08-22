@@ -15,7 +15,6 @@
   "info-card#button-left": {
   	"props": {
   		"textPosition": "right",
-  		"textAlignment": "center",
   		"headline": "Shining chrome",
   		"callToActionMode": "link",
   		"callToActionText": "Go to Collection",
@@ -26,7 +25,6 @@
   "info-card#button-right": {
   	"props": {
   		"textPosition": "left",
-  		"textAlignment": "center",
   		"headline": "Shining chrome",
   		"callToActionMode": "link",
   		"callToActionText": "Go to Collection",
