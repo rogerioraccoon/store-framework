@@ -1,7 +1,9 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text"
+      "rich-text",
+      "info-card#button-left",
+      "info-card#button-right"
     ]
   },
   "rich-text": {
@@ -9,5 +11,25 @@
       "text": "**Hello, World!**",
       "textPosition": "RIGHT"
     }
+  },
+  "info-card#button-left": {
+  	"props": {
+  		"textPosition": "left",
+  		"textAlignment": "center",
+  		"headline": "Shining chrome",
+  		"callToActionText": "Go to Collection",
+  		"imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+  		"subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January"
+  	}
+  },
+  "info-card#button-right": {
+  	"props": {
+  		"textPosition": "right",
+  		"textAlignment": "center",
+  		"headline": "Shining chrome",
+  		"callToActionText": "Go to Collection",
+  		"imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+  		"subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January"
+  	}
   }
 }
